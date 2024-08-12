@@ -7,7 +7,7 @@ import { signOut } from 'firebase/auth';
 import { useRouter } from 'next/navigation';
 import { auth, db } from '@/firebaseConfig'; // Adjust path as needed
 import { doc, getDoc } from 'firebase/firestore';
-import Chatbot from './chatbot'; // Import the Chatbot component
+import Chatbot from './Chatbot';
 
 const UserPageContent = () => {
   const [userDetails, setUserDetails] = useState(null);
